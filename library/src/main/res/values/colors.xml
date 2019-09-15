@@ -9,4 +9,5 @@
     <color name="itemFocusedColor">#1A000000</color>
 
     <color name="defaultColor">#2962FF</color>
+    <color name="colorAccent">#D01E61</color>
 </resources>

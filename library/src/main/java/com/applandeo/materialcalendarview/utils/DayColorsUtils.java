@@ -93,7 +93,7 @@ public class DayColorsUtils {
 
     private static void setHighlightedDayColors(TextView dayLabel, CalendarProperties calendarProperties) {
         setDayColors(dayLabel, calendarProperties.getHighlightedDaysLabelsColor(),
-                Typeface.NORMAL, R.drawable.background_transparent);
+                Typeface.NORMAL, R.drawable.background_color_circle_selector);
     }
 
     private static void setNormalDayColors(TextView dayLabel, CalendarProperties calendarProperties) {
