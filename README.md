@@ -43,7 +43,19 @@ allprojects {
 Add the dependency to module's **build.gradle** file:
 ```
 dependencies {
-    compile 'com.applandeo:material-calendar-view:1.7.0'
+    implementation 'com.applandeo:material-calendar-view:1.7.0'
+}
+```
+or if you want to use the **kotlin** version of our library:
+```
+dependencies {
+    implementation 'com.applandeo:material-calendar-view:1.8.0-rc01'
+}
+```
+or if you want to use very early version with CalendarDay support:
+```
+dependencies {
+    implementation 'com.applandeo:material-calendar-view:1.9.0-alpha03'
 }
 ```
 
@@ -283,6 +295,9 @@ new DatePickerBuilder(this, listener)
 
 ## Changelog
 
+#### Version 1.8.0-rc01
+* Migrated to kotlin
+
 #### Version 1.7.0:
 * Added ability to set maximum selectable days range
 * Added more color customizations (Event label, today background)
@@ -341,7 +356,7 @@ new DatePickerBuilder(this, listener)
 It would be great if you decide to use our component in your project. It’s open source, feel free. Write to us at hi@applandeo.com if you want to be listed and we will include your app in our repo. If you have any questions or suggestions just let us know.
 
 #### Apps using Material-Calendar-View:
-* [FreQuest](https://play.google.com/store/apps/details?id=com.applandeo.frequest)
+* [FreeQuest](https://play.google.com/store/apps/details?id=com.applandeo.freequest)
 
 ## License
 ```
